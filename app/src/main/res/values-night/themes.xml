@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lillup" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#EC1F24</item> <!-- Primary color for app bar, etc. -->
+        <item name="colorPrimaryDark">#EC1F24</item> <!-- Darker variant for the status bar -->
+        <item name="colorAccent">#EC1F24</item> <!-- Accent color used by default controls -->
+        <item name="android:windowBackground">@android:color/white</item> <!-- Background color of screens -->
+
+    </style>
+
+    <style name="DarkGreyProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_bg</item>
+    </style>
+</resources>

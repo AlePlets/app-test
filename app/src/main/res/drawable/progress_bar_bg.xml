@@ -1,0 +1,31 @@
+<!-- res/drawable/circular_progressbar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Foreground Circle (Progress) -->
+    <item>
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45">
+            <shape
+                android:shape="ring"
+                android:innerRadius="70dp"
+                android:useLevel="false"
+                android:thickness="35dp">
+                <solid android:color="@color/light_grey" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape
+                android:shape="ring"
+                android:innerRadius="70dp"
+                android:useLevel="true"
+                android:thickness="35dp">
+                <solid android:color="@color/dark_grey" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

@@ -1,0 +1,42 @@
+<LinearLayout android:background="@drawable/rounded_corner"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="30dp"
+    android:layout_height="250dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/login_dec_img"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="125dp">
+        <ImageView
+            android:id="@+id/ivImge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/incomplete"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expand Your learning"
+        android:textSize="18sp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build your knowledge using AI\n generated learning resources"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>
